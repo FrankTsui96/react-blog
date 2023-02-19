@@ -1,0 +1,27 @@
+.home {
+  position: absolute;
+  top: 120px;
+  right: 120px;
+  bottom: 120px;
+  left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .home-content {
+    min-width: 640px;
+
+    .home-article {
+      margin-bottom: 64px;
+      font-size: 24px;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .home-description {
+      font-size: 14px;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.85);
+    }
+  }
+}
