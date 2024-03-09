@@ -9,7 +9,7 @@ import styles from "./index.module.scss";
 
 // Components
 import { Layout, theme, Col, Row } from "antd";
-import Navigation from "./components/Navigation/inedx";
+import Navigation from "./components/Navigation";
 const { Header, Content } = Layout;
 
 const Root: React.FC = () => {

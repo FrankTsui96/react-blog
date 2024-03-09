@@ -1,19 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
-import Root from "./Root";
-import NotFound from "./Root/NotFound";
-import Home from "./Root/Home";
-import Share from "./Root/Share";
-import Sight from "./Root/Sight";
-import Tech from "./Root/Tech";
-import More from "./Root/More";
+import Root from "../app/Layout";
+import NotFound from "./NotFound";
+import Home from "./Home";
+import Share from "./Share";
+import Sight from "./Sight";
+import Tech from "./Tech";
+import More from "./More";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     errorElement: <NotFound />,
-    // loader: rootLoader,
-    // action: rootAction,
     children: [
       {
         errorElement: <NotFound />,
