@@ -39,7 +39,7 @@ const Root: React.FC = () => {
         className="site-layout"
         style={{
           position: "relative",
-          padding: "50px",
+          padding: "48px",
           minHeight: "calc(100vh - 64px)",
         }}
       >
